@@ -1,15 +1,15 @@
-# Flutter Playground
+# Alpha
 
-A basic Flutter project for experimentation and learning.
+A Flutter application with Firebase authentication.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application. It includes:
+This project is a Flutter application featuring:
 
-- Basic Flutter app structure with a counter example
-- Platform-specific configurations for Android, iOS, and Web
-- Standard Flutter dependencies and build configuration
-- Analysis options for consistent code quality
+- Material Design with green theme
+- Firebase Authentication (login/logout)
+- Responsive design for multiple platforms
+- Modern Flutter architecture with authentication state management
 
 ## Prerequisites
 
@@ -17,6 +17,16 @@ This project is a starting point for a Flutter application. It includes:
 - Dart SDK (included with Flutter)
 - Android Studio / VS Code with Flutter extensions
 - For iOS development: Xcode (macOS only)
+- Firebase project with Authentication enabled
+
+## Firebase Setup
+
+1. Create a Firebase project at https://console.firebase.google.com
+2. Enable Authentication and set up Email/Password sign-in method
+3. Add your app configurations:
+   - For Android: Download `google-services.json` and place it in `android/app/`
+   - For iOS: Download `GoogleService-Info.plist` and place it in `ios/Runner/`
+   - For Web: Add your Firebase config to `web/index.html`
 
 ## Installation
 

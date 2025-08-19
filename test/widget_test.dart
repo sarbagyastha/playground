@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:playground/main.dart';
+import 'package:alpha/main.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
@@ -26,10 +26,10 @@ void main() {
     await tester.pumpWidget(const MyApp());
 
     // Verify that the app title is displayed.
-    expect(find.text('Flutter Playground Home Page'), findsOneWidget);
+    expect(find.text('Alpha Home Page'), findsOneWidget);
     
     // Verify that the welcome message is displayed.
-    expect(find.text('Welcome to Flutter Playground!'), findsOneWidget);
+    expect(find.text('Welcome to Alpha!'), findsOneWidget);
     
     // Verify that the counter instruction text is displayed.
     expect(find.text('You have pushed the button this many times:'), findsOneWidget);
